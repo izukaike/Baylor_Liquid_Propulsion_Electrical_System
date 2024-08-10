@@ -1,9 +1,10 @@
 # V2_Electrical_System
 This project is the electrical system for Baylor's Liquid Fueled Rocket Engine Version 2. 
 
-This system is responsible for measurement, data acquisition, control, and telemetry. 
+This system is responsible for measurement, data acquisition, control, and telemetry.
 
 
+![image](https://github.com/user-attachments/assets/6d497a72-3782-4d06-bbcb-6c12bc6bfab2)
 
 Hardware
 
@@ -20,4 +21,8 @@ Hardware
     4. Force Load Cell 
     5. Thermocouple 
     6. Solenoid Valves
+
+
+
+
     
