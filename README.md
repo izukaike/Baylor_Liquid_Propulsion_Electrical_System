@@ -5,7 +5,7 @@ This system is responsible for measurement, data acquisition, control, and telem
 
 <img align="left" alt="Java" width="500px";" src="https://github.com/user-attachments/assets/6d497a72-3782-4d06-bbcb-6c12bc6bfab2"/>
 
-<img align="left" alt="Java" width="500px" src="(https://github.com/user-attachments/assets/6d497a72-3782-4d06-bbcb-6c12bc6bfab2"/>
+<img align="left" alt="Java" width="500px" src="https://github.com/user-attachments/assets/6d497a72-3782-4d06-bbcb-6c12bc6bfab2"/>
 
 Hardware
 
