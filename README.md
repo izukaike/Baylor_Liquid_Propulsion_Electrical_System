@@ -4,6 +4,7 @@ This project is the electrical system for Baylor's Liquid Fueled Rocket Engine V
 Hardware
     Electronics
         1. Raspberry Pi 4b
+        
         4. ADC 
         5. DAC 
         2. Cold Junction Compensators 
