@@ -6,6 +6,7 @@ Hardware
         1. Raspberry Pi 4b
         
         4. ADC 
+        
         5. DAC 
         2. Cold Junction Compensators 
         3. Voltage Inverter
