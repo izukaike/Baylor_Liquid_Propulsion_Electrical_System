@@ -1,0 +1,41 @@
+'''
+Author: Izuka Ikedionwu
+
+Description: My test interface -> this is what the software team would interface with
+
+Created: 6/26/24
+'''
+# API Imports 
+from pycode import Wifi_Host, Telemetry, Metrics, System_Health, Wifi_Client
+from pycode import PT1,PT2,PT3,PT4,PT5,FS,TS,RR
+import time
+
+#Beginning of Code
+                     #my ip 
+wifi = Wifi_Host("192.168.1.215",4)
+sys  = System_Health()
+tel  = Telemetry(wifi,sys)
+
+data_array = []
+while True:
+    #open valve 1 3 and set coil frequency to 80ms
+    tel.open_valve(1)
+    tel.open_valve(3)
+    tel.set_coil(80)
+    #send those commands to pi
+    tel.send_data()
+    '''
+    engine valves open
+    '''
+    #get data from pi
+    data_array = tel.get_data()
+    #print pressure form pressure transducer 1
+    print(data_array[PT1])
+    #print pressure form pressure transducer 2
+    print(data_array[PT2])
+    #print refresh rate of the system
+    print(data_array[RR])
+    #gets system stats for debugging purposes
+    debug_data = sys.get_sys_status()
+    print(debug_data)
+    time.sleep(5)
