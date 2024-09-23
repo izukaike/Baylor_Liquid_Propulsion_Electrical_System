@@ -24,8 +24,6 @@ This system is responsible for instrumentation, data acquisition, control, and t
 ---
 
 ## Hardware
-
-<img align="left" alt="Hardware" width="90px" height="75px" style="padding-right:10px;" src="https://github.com/user-attachments/assets/f4eec89e-c38d-4e74-8571-e16fd2681440" />
 <br>
 <br>
 
