@@ -18,7 +18,6 @@ This system is responsible for instrumentation, data acquisition, control, and t
 <img align="middle" alt="System Outline" width="1000px" src="https://github.com/user-attachments/assets/6d497a72-3782-4d06-bbcb-6c12bc6bfab2"/> <br><br>
 
 ## Hardware
-
 **Electronics:**
 - BCM2711 ARM Processor (Raspberry Pi 4B)
 - ATmega328P (Arduino UNO)
@@ -41,7 +40,6 @@ This system is responsible for instrumentation, data acquisition, control, and t
 - Thermocouple
 
 ## Software
-
 ### Languages and Tools
 
 <img align="left" alt="Git" width="50px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />
