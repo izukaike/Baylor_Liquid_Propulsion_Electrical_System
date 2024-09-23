@@ -15,13 +15,9 @@ This system is responsible for instrumentation, data acquisition, control, and t
   </tr>
 </table>
 
-
-
 ## System Outline
 
 <img align="middle" alt="System Outline" width="1000px" src="https://github.com/user-attachments/assets/6d497a72-3782-4d06-bbcb-6c12bc6bfab2"/> <br><br>
-
-
 
 ## Hardware
 <br>
@@ -49,8 +45,6 @@ This system is responsible for instrumentation, data acquisition, control, and t
 
 <br><br>
 
-
-
 ## Software
 
 ### Languages and Tools
@@ -62,6 +56,7 @@ This system is responsible for instrumentation, data acquisition, control, and t
 <img align="left" alt="GitHub" width="50px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
 <img align="left" alt="Bash" width="50px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" />
 <br /><br />
+
 
 **C/C++:**
 - Wi-Fi Driver
