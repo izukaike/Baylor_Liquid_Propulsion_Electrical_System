@@ -4,7 +4,7 @@ This project is the electrical system for Baylor's Liquid Fueled Rocket Engine V
 
 This system is responsible for instrumentation, data acquisition, control, and telemetry.
 
----
+
 
 ## CAD of Engine & Test Stand
 
@@ -15,13 +15,13 @@ This system is responsible for instrumentation, data acquisition, control, and t
   </tr>
 </table>
 
----
+
 
 ## System Outline
 
 <img align="middle" alt="System Outline" width="1000px" src="https://github.com/user-attachments/assets/6d497a72-3782-4d06-bbcb-6c12bc6bfab2"/> <br><br>
 
----
+
 
 ## Hardware
 <br>
@@ -49,7 +49,7 @@ This system is responsible for instrumentation, data acquisition, control, and t
 
 <br><br>
 
----
+
 
 ## Software
 
