@@ -5,7 +5,7 @@ This project is the electrical system for Baylor's Liquid Fueled Rocket Engine V
 This system is responsible for measurement, data acquisition, control, and telemetry.
 
 <p align="center" style="font-size:56px;">
-# <CAD of Engine & Test Stand>
+# *CAD of Engine & Test Stand*
 <table align="center">
   <tr>
     <td><img alt="CAD Engine" width="250px" height="175px" src="https://github.com/user-attachments/assets/0762d409-6d7f-403b-9167-cb9592e8b7b2"/></td>
