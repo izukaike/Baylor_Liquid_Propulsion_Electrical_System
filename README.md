@@ -1,4 +1,5 @@
-# 2nd Baylor Liquid Propulsion Electrical System
+<p align="center" style="font-size:24px;">2nd Baylor Liquid Propulsion Electrical System</p>
+
 This project is the electrical system for Baylor's Liquid Fueled Rocket Engine Version 2.
 
 This system is responsible for measurement, data acquisition, control, and telemetry.
@@ -18,6 +19,3 @@ This system is responsible for measurement, data acquisition, control, and telem
 - Raspberry Pi 4b
 - DC/DC Boost Converter
 - ...
-
-
-    
