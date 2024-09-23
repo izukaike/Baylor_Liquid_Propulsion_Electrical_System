@@ -42,6 +42,8 @@ This system is responsible for instrumentation, data acquisition, control, and t
 <br><br>
 
 ## Software
+<br />
+<br />
 Languages and Tools
 <img align="left" alt="Git" width="90px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />
 <img align="left" alt="Linux" width="90px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" />
