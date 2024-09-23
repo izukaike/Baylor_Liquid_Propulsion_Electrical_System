@@ -5,7 +5,6 @@ This system is responsible for measurement, data acquisition, control, and telem
 
  # CAD of Engine & Test Stand
 <img align="middle" alt="Java" width="250px" height="175px" src="https://github.com/user-attachments/assets/0762d409-6d7f-403b-9167-cb9592e8b7b2"/>
-
 <img align="middle" alt="Java" width="250px" height="175px" src="https://github.com/user-attachments/assets/c53c416c-6bc9-443c-aba0-f7cb299cf15e"/> <br><br>
 
 # System Outline
