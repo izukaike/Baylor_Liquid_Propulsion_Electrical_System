@@ -32,6 +32,7 @@ This system is responsible for instrumentation, data acquisition, control, and t
 - Inverters
 - MOSFETS
 - LEDs
+- Oscillator
 
 **Instrumentation:**
 - Pressure Transducer
