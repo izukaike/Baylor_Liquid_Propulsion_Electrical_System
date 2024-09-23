@@ -4,8 +4,6 @@ This project is the electrical system for Baylor's Liquid Fueled Rocket Engine V
 
 This system is responsible for instrumentation, data acquisition, control, and telemetry.
 
-
-
 ## CAD of Engine & Test Stand
 
 <table align="center">
@@ -20,8 +18,6 @@ This system is responsible for instrumentation, data acquisition, control, and t
 <img align="middle" alt="System Outline" width="1000px" src="https://github.com/user-attachments/assets/6d497a72-3782-4d06-bbcb-6c12bc6bfab2"/> <br><br>
 
 ## Hardware
-<br>
-<br>
 
 **Electronics:**
 - BCM2711 ARM Processor (Raspberry Pi 4B)
@@ -55,8 +51,8 @@ This system is responsible for instrumentation, data acquisition, control, and t
 <img align="left" alt="C++" width="50px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-line.svg" />
 <img align="left" alt="GitHub" width="50px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
 <img align="left" alt="Bash" width="50px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" />
-<br /><br />
-
+<br />
+<br />
 
 **C/C++:**
 - Wi-Fi Driver
