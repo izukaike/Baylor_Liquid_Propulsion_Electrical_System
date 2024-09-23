@@ -16,7 +16,8 @@ This system is responsible for instrumentation, data acquisition, control, and t
 <img align="middle" alt="System Outline" width="1000px" src="https://github.com/user-attachments/assets/6d497a72-3782-4d06-bbcb-6c12bc6bfab2"/> <br><br>
 
 ## Hardware
-<img align="left" alt="Git" width="90px" height="75px" style="padding-right:10px;" src="https://github.com/user-attachments/assets/f4eec89e-c38d-4e74-8571-e16fd2681440" /><br><br> 
+<img align="left" alt="Git" width="90px" height="75px" style="padding-right:10px;" src="https://github.com/user-attachments/assets/f4eec89e-c38d-4e74-8571-e16fd2681440" /><br>
+<br> 
 
 
     Electronics
@@ -49,3 +50,14 @@ This system is responsible for instrumentation, data acquisition, control, and t
 <img align="left" alt="GitHub" width="90px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
 <img align="left" alt="Bash" width="90px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" />
 <br />
+    
+    C/C++
+     - Wi-Fi Driver
+     - GPIO Driver
+     - ADC Driver
+     - DAC Driver
+    Python
+     - Front-End API
+     - Test Automation
+     - Data Visualization
+      
