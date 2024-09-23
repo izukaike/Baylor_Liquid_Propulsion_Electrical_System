@@ -33,7 +33,7 @@ This system is responsible for instrumentation, data acquisition, control, and t
       - Inverters
       - MOSFETS
       - LED's
-    Instrumentation
+      Instrumentation
       - Pressure Transducer
       - Solenoid Valve
       - Thrust Sensor
@@ -42,7 +42,7 @@ This system is responsible for instrumentation, data acquisition, control, and t
 <br><br>
 
 ## Software
-### 🧰 Languages and Tools
+Languages and Tools
 <img align="left" alt="Git" width="90px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />
 <img align="left" alt="Linux" width="90px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" />
 <img align="left" alt="Python" width="90px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-plain.svg" />
@@ -62,4 +62,7 @@ This system is responsible for instrumentation, data acquisition, control, and t
      - Front-End API
      - Test Automation
      - Data Visualization
+    Bash
+     - Test Automation
+     - System Monitoring
       
