@@ -1,4 +1,4 @@
-# V2_Electrical_System
+# 2nd Baylor Liquid Propulsion Electrical System
 This project is the electrical system for Baylor's Liquid Fueled Rocket Engine Version 2. 
 
 This system is responsible for measurement, data acquisition, control, and telemetry.
