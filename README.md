@@ -2,7 +2,7 @@
 
 This project is the electrical system for Baylor's Liquid Fueled Rocket Engine Version 2.
 
-This system is responsible for measurement, data acquisition, control, and telemetry.
+This system is responsible for instrumentation, data acquisition, control, and telemetry.
 
 # CAD of Engine & Test Stand
 <table align="center">
