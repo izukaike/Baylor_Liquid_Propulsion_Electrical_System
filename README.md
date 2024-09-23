@@ -16,7 +16,7 @@ This system is responsible for instrumentation, data acquisition, control, and t
 <img align="middle" alt="System Outline" width="1000px" src="https://github.com/user-attachments/assets/6d497a72-3782-4d06-bbcb-6c12bc6bfab2"/> <br><br>
 
 ## Hardware
-<img align="left" alt="Git" width="90px" height="75px" style="padding-right:10px;" src="https://github.com/user-attachments/assets/f4eec89e-c38d-4e74-8571-e16fd2681440" /> 
+<img align="left" alt="Git" width="90px" height="75px" style="padding-right:10px;" src="https://github.com/user-attachments/assets/f4eec89e-c38d-4e74-8571-e16fd2681440" /><br><br> 
 
     Electronics
       - BCM2711 ARM Processor (Raspberry Pi +4b)
@@ -30,6 +30,7 @@ This system is responsible for instrumentation, data acquisition, control, and t
       - Cold Junction Compensator
       - Inverters
       - MOSFETS
+      - LED's
     Instrumentation
       - Pressure Transducer
       - Solenoid Valve
