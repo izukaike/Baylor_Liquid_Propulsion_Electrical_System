@@ -16,9 +16,9 @@ This system is responsible for instrumentation, data acquisition, control, and t
 ## System Outline
 
 <img align="middle" alt="System Outline" width="1000px" src="https://github.com/user-attachments/assets/6d497a72-3782-4d06-bbcb-6c12bc6bfab2"/> <br><br>
+<img align="middle" alt="System Outline" width="1000px" src="https://github.com/user-attachments/assets/5243bc0b-2f3e-445a-be5f-bc32823a7bfb"/> <br><br>
 
 
-as;jl egjklj
 
 
 ## Hardware
