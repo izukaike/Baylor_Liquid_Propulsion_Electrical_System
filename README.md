@@ -9,7 +9,7 @@ This system is responsible for instrumentation, data acquisition, control, and t
 <table align="center">
   <tr>
     <td><img alt="CAD Engine" width="300px" height="200px" src="https://github.com/user-attachments/assets/0762d409-6d7f-403b-9167-cb9592e8b7b2"/></td>
-    <td><img alt="Test Stand" width="300px" height="200px" src="https://github.com/user-attachments/assets/c53c416c-6bc9-443c-aba0-f7cb299cf15e"/></td>
+    <td><img alt="Test Stand" width="300px" height="300px" src="https://github.com/user-attachments/assets/c53c416c-6bc9-443c-aba0-f7cb299cf15e"/></td>
   </tr>
 </table>
 
