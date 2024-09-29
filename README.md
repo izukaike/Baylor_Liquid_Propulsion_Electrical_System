@@ -17,6 +17,10 @@ This system is responsible for instrumentation, data acquisition, control, and t
 
 <img align="middle" alt="System Outline" width="1000px" src="https://github.com/user-attachments/assets/6d497a72-3782-4d06-bbcb-6c12bc6bfab2"/> <br><br>
 
+
+as;jl egjklj
+
+
 ## Hardware
 **Electronics:**
 - BCM2711 ARM Processor (Raspberry Pi 4B)
