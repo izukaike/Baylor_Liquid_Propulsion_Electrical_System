@@ -19,7 +19,7 @@ Following my passion for electronics, emebedded systems, and software developmen
 ## Overlaid Design
 <table align="center">
   <tr>
-    <td><img alt="CAD Engine" width="500px" height="500x" src="https://github.com/user-attachments/assets/f4c33760-d4a8-4410-bfac-3ae6fc2af662"/></td>
+    <td><img alt="CAD Engine" width="600px" height="500x" src="https://github.com/user-attachments/assets/f4c33760-d4a8-4410-bfac-3ae6fc2af662"/></td>
   </tr>
 </table>
 
