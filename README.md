@@ -17,7 +17,7 @@ Following my passion for electronics, emebedded systems, and software developmen
 <img align="middle" alt="System Outline" width="1000px" src="https://github.com/user-attachments/assets/6d497a72-3782-4d06-bbcb-6c12bc6bfab2"/> <br><br>
 
 ## Overlaid Design
-<img align="middle" alt="System Outline" width="1000px" src="https://github.com/user-attachments/assets/f4c33760-d4a8-4410-bfac-3ae6fc2af662"/> <br><br>
+<img align="middle" alt="System Outline"width="300px" height="300px" src="https://github.com/user-attachments/assets/f4c33760-d4a8-4410-bfac-3ae6fc2af662"/> <br><br>
 
 
 ## Features
