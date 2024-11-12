@@ -2,10 +2,9 @@
 
 This project is the electrical system for Baylor's Liquid Fueled Rocket Engine Version 2.
 
-This system is responsible for instrumentation, data acquisition, control, and telemetry.
+Following my passion for electronics, emebedded systems, and software development I took on the responsible to design and developement of the sensors, control drivers, wireless telemetry, data collection hardware and software and efficient testing systems for rapid enginer hot-fires to lay down a great foundation for Baylor's future plans to make competition liquid fueled rockets.
 
 ## CAD of Engine & Test Stand
-
 <table align="center">
   <tr>
     <td><img alt="CAD Engine" width="300px" height="200px" src="https://github.com/user-attachments/assets/0762d409-6d7f-403b-9167-cb9592e8b7b2"/></td>
