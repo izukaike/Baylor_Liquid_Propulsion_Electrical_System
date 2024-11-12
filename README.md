@@ -20,7 +20,7 @@ This system is responsible for instrumentation, data acquisition, control, and t
 ## Features
 - Wifi Capabilities
 - Custom Rechargeable Battery Pack
-- >99% Sensor Accuracy
+- `>`99% Sensor Accuracy
 - Custom Hardware-In-The-Loop Module
 - Personalized Valve and Coil Driver Hardware
 - Linux Operating System
