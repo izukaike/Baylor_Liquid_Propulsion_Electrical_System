@@ -1,4 +1,4 @@
-## Baylor Liquid Propulsion Electrical System Version 2</p>
+## Liquid Propulsion Electrical System Version 2</p>
 
 This project is the electrical system for Baylor's Liquid Fueled Rocket Engine Version 2.
 
