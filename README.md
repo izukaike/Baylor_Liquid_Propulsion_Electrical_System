@@ -19,7 +19,7 @@ Following my passion for electronics, emebedded systems, and software developmen
 ## Integration Design
 <table align="center">
   <tr>
-    <td><img alt="CAD Engine" width="600px" height="500x" src="https://github.com/user-attachments/assets/f4c33760-d4a8-4410-bfac-3ae6fc2af662"/></td>
+    <td><img alt="CAD Engine" width="600px" height="500x" src="https://github.com/user-attachments/assets/c91be6a1-7270-44ed-836c-065c49515718"/></td>
   </tr>
 </table>
 
