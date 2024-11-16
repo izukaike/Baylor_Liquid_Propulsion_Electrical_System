@@ -6,7 +6,7 @@ Following my passion for electronics, emebedded systems, and software developmen
 
 <table align="center">
   <tr>
-    <td><img alt="CAD Engine" width="300px" height="200px" src="https://github.com/user-attachments/assets/c5d818c1-3d96-4572-81d5-cb096455bc40"/></td>
+    <td><img alt="CAD Engine" width="300px" height="300px" src="https://github.com/user-attachments/assets/c5d818c1-3d96-4572-81d5-cb096455bc40"/></td>
   </tr>
 </table>
 
