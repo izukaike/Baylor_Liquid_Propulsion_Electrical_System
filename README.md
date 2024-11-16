@@ -1,5 +1,5 @@
 ## Liquid Propulsion Electrical System Version 2</p>
-<!
+<!--
 <table align="right">
   <tr>
     <td><img alt="CAD Engine" width="200px" height="220px" src="https://github.com/user-attachments/assets/c5d818c1-3d96-4572-81d5-cb096455bc40"/></td>
