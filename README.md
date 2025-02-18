@@ -3,9 +3,9 @@
 ## SetUp: 
   Files in active directory
 - pycode.py : main api interface
-    * serial_pc.py : bluetooth code
-    * test_sequ_excel.py : test sequence code
-    * test_sequence.xls : excel file with test sequence in it
+- serial_pc.py : bluetooth code
+- test_sequ_excel.py : test sequence code
+- test_sequence.xls : excel file with test sequence in it
 ## Proper Function:
     * you will need to manually type in the test file name into program or you can make a command line argument for program
 
