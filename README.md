@@ -1,4 +1,15 @@
 ## Liquid Propulsion Electrical System Version 2</p>
+
+SetUp: 
+  Files in active directory
+    * pycode.py : main api interface
+    * serial_pc.py : bluetooth code
+    * test_sequ_excel.py : test sequence code
+    * test_sequence.xls : excel file with test sequence in it
+Proper Function:
+    * you will need to manually type in the test file name into program or you can make a command line argument for program
+
+ 
 <!--
 <table align="right">
   <tr>
@@ -8,6 +19,7 @@
 This project is the electrical system for Baylor's Liquid Fueled Rocket Engine Version 2.
 -->
 
+<!---
 Following my passion for electronics, emebedded systems, and software development I took on the responsible to design and developement of the sensors, control drivers, wireless telemetry, data collection hardware and software and efficient testing systems for rapid enginer hot-fires to lay down a great foundation for Baylor's future plans to make competition liquid fueled rockets.
 
 ## Engine & Test Stand Design
@@ -38,3 +50,4 @@ Following my passion for electronics, emebedded systems, and software developmen
 - Personalized Valve and Coil Driver Hardware
 - Linux Operating System
 - User and Kernel Mode Drivers
+--!>
