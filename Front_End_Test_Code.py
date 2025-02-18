@@ -5,7 +5,7 @@ import time
 
 data_arr = []
 file_path = "Hotfire_Basic_Sample.xlsx"
-#this doesnt do anything 
+#removed wifi module and comboned wifi/telemetry
 sys  = System_Health()
 #this really connects
 tel  = Telemetry(sys)
