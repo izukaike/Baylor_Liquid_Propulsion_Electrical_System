@@ -7,7 +7,7 @@
 - test_sequ_excel.py : test sequence code
 - test_sequence.xls : excel file with test sequence in it
 ## Proper Function:
-    * you will need to manually type in the test file name into program or you can make a command line argument for program
+- you will need to manually type in the test file name into program or you can make a command line argument for program
 
  
 <!--
