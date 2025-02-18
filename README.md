@@ -2,7 +2,7 @@
 
 ## SetUp: 
   Files in active directory
-    * pycode.py : main api interface
+- pycode.py : main api interface
     * serial_pc.py : bluetooth code
     * test_sequ_excel.py : test sequence code
     * test_sequence.xls : excel file with test sequence in it
