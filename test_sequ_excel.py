@@ -1,74 +1,149 @@
-import openpyxl
-import pandas as pd
+'''
+ToDo:
+  - implement test sequence functions into gui
+            * complete the "parse_uart_data()" like functions
+  - polish abort functionality
+  - implement function/action definiton
+            * complete the "read_opd_2()" like functions
+  - 
+'''
 
 
-class test_sequence:
-    # Load the Excel file
-    def __init__(self,file_path):
-        self.file_path = file_path
-        self.wb = openpyxl.load_workbook(self.file_path)
+import time
 
-        # test sequence
-        self.ws = self.wb["BLP_Hotfire"]  #Get the active sheet
-        # Extract and index each cell with row and column numbers
-        self.sequence_data = []
-        self.abort_data    = []
+def start_count():
+    print("Executing Start_Count")
 
-        self.test_num = 0
-        self.duration = 0
-        self.s_duration = 0
-        self.time      = [] # prepend the rest of the dat
-        self.functions = []
-        self.actions   = []
-        self.Limit     = []
-        self.cond      = []
-        self.unit      = []
-        self.oob       = []
+def read_opd_02():
+    print("Executing Read_OPD_02")
 
-    def parse_test(self):
-        index     = 0
-        #test_num
-        #self.test_num = self.ws.cell(row = 1, column = 2).value
-        #print("test_num " + str(test_num))
-        self.duration = self.ws.cell(row = 2, column = 2).value
-        #print("duration " + str(self.duration))
-        self.s_duration = self.ws.cell(row = 3, column = 2).value
-        #print("s_duration " + str(self.s_duration))
+def read_fpd_02():
+    print("Executing Read_FPD_02")
+    '''
+    data = tel.get_data()
+    return data[opd]
+    '''
 
-        #add test duration details to index
-        self.sequence_data.append([self.duration])
-        self.sequence_data.append([self.s_duration])
+def read_epd_01():
+    print("Executing Read_EPD_01")
 
-        #print(self.sequence_data)
-        row_data = []
-        for i in range(1,27):
-            row_data = []
-            for j in range(1,8):
-                cell_value = self.ws.cell(row= (i+5), column=j).value  # Get cell value
-                row_data.append(cell_value)
-            self.sequence_data.append(row_data)
-            #print(indexed_data[index])
-            index += 1
-        #print(self.sequence_data)
-        return self.sequence_data
+def fv_02():
+    print("Executing FV_02")
+    '''
+    tel.open_valve(fv_o2)
+    tel.send_data()
+    '''
 
-    def parse_abort_limit(self):
-        index = 0
-        row_data = []
-        for i in range(3):
-            row_data = []
-            for j in range(1,8):
-                cell_value = self.ws.cell(row= (i+29), column=j).value  # Get cell value
-                row_data.append(cell_value)
-            self.abort_data.append(row_data)
-            #print(indexed_data[index])
-            index += 1
-        #print(self.abort_data)
-        return self.abort_data
+def nv_02():
+    print("Executing NV_02")
 
+def fv_03():
+    print("Executing FV_03")
+
+def blp_abort():
+    print("Executing BLP_Abort")
+
+# Function mapping
+task_map = {
+    "Start_Count": start_count,
+    "Read_OPD_02": read_opd_02,
+    "Read_FPD_02": read_fpd_02,
+    "Read_EPD_01": read_epd_01,
+    "FV_02": fv_02,
+    "NV_02": nv_02,
+    "FV_03": fv_03,
+    "BLP_Abort": blp_abort
+}
+
+def parse_uart_data(data):
+    time_list = []
+    function_list = []
+    action_list = []
+    limit_list = []
+    condition_list = []
+    unit_list = []
+    oob_list = []
+    
+    # Find max absolute time value to adjust countdown timing
+    max_time = max(abs(entry[0]) for entry in data if entry[0] is not None)
+    
+    for entry in data:
+        if len(entry) < 7:
+            continue  # Skip incomplete entries
+        
+        # Adjust time values so that max_time corresponds to 0
+        time_value = max_time - abs(entry[0])
+        time_list.append(time_value)
+        
+        function_list.append(entry[1])
+        action_list.append(entry[2])
+        limit_list.append(entry[3])
+        condition_list.append(entry[4])
+        unit_list.append(entry[5])
+        oob_list.append(entry[6])
+
+    
+    
+    return time_list, function_list, action_list, limit_list, condition_list, unit_list, oob_list
+
+def countdown_execution(time_list, function_list, limit_list, condition_list, oob_list):
+    start_time = time.time()
+    executed = set()
+    
+    while len(executed) < len(time_list):
+        current_time = int(time.time() - start_time)
+        
+        for i, target_time in enumerate(time_list):
+            if target_time == current_time and i not in executed:
+                print(f"{30-target_time} seconds remaining: Executing {function_list[i]}")
+                
+                # Check conditions before executing
+                if limit_list[i] != "N/A" and condition_list[i] != "N/A":
+                    try:
+                        value = 13  # Example input value for testing
+                        condition_value = float(condition_list[i])
+                        if limit_list[i].startswith("<") and value > condition_value:
+                            print(f"Condition met: {value} {limit_list[i]} {condition_value}")
+                        elif limit_list[i].startswith(">") and value < condition_value:
+                            print(f"Condition met: {value} {limit_list[i]} {condition_value}")
+                        else:
+                            print(f"Condition not met for {function_list[i]}, triggering OOB: {oob_list[i]}")
+                            if oob_list[i] in task_map:
+                                task_map[oob_list[i]]()
+                            break    
+                            #continue  # Skip execution if condition is not met
+                    except ValueError:
+                        print("Invalid limit or condition value, skipping condition check.")
+                
+                # Execute function if in map
+                if function_list[i] in task_map:
+                    task_map[function_list[i]]()
+                executed.add(i)
+        
+        time.sleep(0.1)  # Non-blocking slight delay for efficiency
+
+# Example test data
+data = [
+    [-30, 'Start_Count', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A'],
+    [-20, 'Read_OPD_02', 'READ', '<', '15', 'psi', 'BLP_Abort'],
+    [-20, 'Read_FPD_02', 'READ', '<', '15', 'psi', 'BLP_Abort'],
+    [-20, 'Read_EPD_01', 'READ', '<', '15', 'psi', 'BLP_Abort'],
+    [-15, 'FV_02', 'CLOSE', 'N/A', '0', 'N/A', 'BLP_Abort'],
+    [-15, 'NV_02', 'OPEN', 'N/A', '0', 'N/A', 'N/A'],
+    [0, 'FV_03', 'OPEN', 'N/A', 'N/A', 'N/A', 'N/A']
+]
+
+# Extract lists
+time_list, function_list, action_list, limit_list, condition_list, unit_list, oob_list = parse_uart_data(data)
+
+# Execute countdown-based function execution
+countdown_execution(time_list, function_list, limit_list, condition_list, oob_list)
 
 '''
-t = test_sequence()
-t.parse_test()
-t.parse_abort_limit()
-'''           
+#does this call the function
+for i in range(len(task_map)):
+    task_map[function_list[i]]()
+'''
+
+
+
