@@ -17,5 +17,5 @@ This repository contains the complete embedded system and software stack used to
 
 ## ADC Testing
 <img src="https://github.com/user-attachments/assets/9c7152c0-9fc2-4ed2-b0b9-a809611d7cca" alt="Battery" width="900" height="275"/>
-<img src="https://github.com/user-attachments/assets/2079f2d6-f6fa-48f7-a481-dfac0fbaaed3" alt="Battery" width="900" height="275"/>
+<img src="https://github.com/user-attachments/assets/2079f2d6-f6fa-48f7-a481-dfac0fbaaed3" alt="Battery" width="900" height="155"/>
 
