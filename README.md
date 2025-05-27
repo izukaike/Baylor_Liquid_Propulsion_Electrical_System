@@ -13,7 +13,7 @@ This repository contains the complete embedded system and software stack used to
 
 ## DAC Testing
 <img src="https://github.com/user-attachments/assets/6a1298d2-3720-4252-8efb-bbafb4b44305" alt="Battery" width="900" height="275"/>
-<img src="https://github.com/user-attachments/assets/6dd64baf-c711-4f97-bfe2-586a29906aeb" alt="Battery" width="900" height="165"/>
+<img src="https://github.com/user-attachments/assets/6dd64baf-c711-4f97-bfe2-586a29906aeb" alt="Battery" width="900" height="175"/>
 
 ## ADC Testing
 <img src="https://github.com/user-attachments/assets/9c7152c0-9fc2-4ed2-b0b9-a809611d7cca" alt="Battery" width="900" height="275"/>
