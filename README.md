@@ -4,3 +4,5 @@ This repository contains the complete embedded system and software stack used to
 
 ## P&ID
 <img src="https://github.com/user-attachments/assets/a3d5afc1-5d24-435b-a3da-f5b8b2159c42" alt="P&ID" width="600" height="450"/>
+## Custom Battery Module
+<img src="https://github.com/user-attachments/assets/faf5ec24-ed69-4ea3-a172-998146c9a088" alt="Battery" width="600" height="450"/>
