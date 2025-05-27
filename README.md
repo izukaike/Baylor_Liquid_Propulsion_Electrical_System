@@ -9,5 +9,5 @@ This repository contains the complete embedded system and software stack used to
 <img src="https://github.com/user-attachments/assets/faf5ec24-ed69-4ea3-a172-998146c9a088" alt="Battery" width="1000" height="275"/>
 
 ## Sensor Data Testing
-<img src="https://github.com/user-attachments/assets/6a1298d2-3720-4252-8efb-bbafb4b44305" alt="Battery" width="1000" height="225"/>
+<img src="https://github.com/user-attachments/assets/6a1298d2-3720-4252-8efb-bbafb4b44305" alt="Battery" width="900" height="275"/>
 
